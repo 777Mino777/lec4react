@@ -1,0 +1,30 @@
+
+const Tailtable = ({tbitem}) => {
+  
+  const th = tbitem['th'].map((item,idx) => <th key={`th${idx}`}>{item}</th>);
+  
+  const tr = tbitem['tr'].map((item,idx) => 
+  <tr key={`tr${idx}`}>
+    {item.map((i,idx) => <td key={`td${idx}`}>{i}</td>) }
+  </tr>
+  )
+
+  return (
+    <div>
+    <table className="table-fixed">
+    <thead>
+      <tr>
+        {th}
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       {tr}
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  )
+}
+
+export default Tailtable;

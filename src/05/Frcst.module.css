@@ -1,0 +1,43 @@
+.dtcnkey {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    height: 40px;
+    border-radius: 20%;
+    margin: 55px;
+}
+
+.dtcnkey:hover {
+    background-color: blue;
+    color: white;
+}
+
+.sp1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp21 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: blue;
+}
+.sp22 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: green;
+}
+.sp23 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: red;
+}
